@@ -14,9 +14,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body style="background-color: #FFFFFF" id="page-container">
+    <div id="content-wrap">
     <%= yield %>
     <%= javascript_include_tag "application" %>
     <%= javascript_pack_tag "application" %>
+    </div>
+    <footer id="footer">
+      <p>©️ The Awesome Consulting Team</p>
+    </footer>
   </body>
 </html>

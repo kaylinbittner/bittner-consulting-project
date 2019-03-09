@@ -4,3 +4,31 @@
 @import "navbar";
 @import "banner";
 @import "punchline";
+@import "tabs";
+@import "contact-cards";
+@import "photo-slider";
+@import "home-cards";
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 4rem;    /* Footer height */
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4rem;
+  background-color: $blue;
+  color: white;
+  padding-top: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: flex-end;
+
+  p {
+    font-weight: bolder;
+  }
+}

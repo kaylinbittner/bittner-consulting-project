@@ -1,10 +1,15 @@
-<h1>About Our Team</h1>
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12 col-sm-6 col-md-4">Phui Phui</div>
-    <div class="col-xs-12 col-sm-6 col-md-4">Sonny</div>
-    <div class="col-xs-12 col-sm-6 col-md-4">Matthew</div>
-  </div>
-  <div class="col-xs-12 col-sm-6 col-md-4">Shaun</div>
-  </div>
-</div>
+<ul class="list-inline tabs-underlined">
+  <li>
+    <%= link_to "Home", home_path, class: "tab-underlined" %>
+  </li>
+  <li>
+    <%= link_to "About", about_path, class: "tab-underlined active" %>
+  </li>
+  <li>
+    <%= link_to "Contact", contact_path, class: "tab-underlined" %>
+  </li>
+</ul>
+
+
+<h1 style="margin-bottom: 30px; text-align: center; color: #1F2D5E;">About Our Team</h1>
+<%= render "./shared/photo-slider" %>
