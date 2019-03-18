@@ -8,7 +8,10 @@
 @import "contact-cards";
 @import "photo-slider";
 @import "home-cards";
+@import "home-page-content";
 
+
+// Whole Page Layout from Application.html.erb
 #page-container {
   position: relative;
   min-height: 100vh;
